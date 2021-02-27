@@ -2,20 +2,20 @@ class Geography {
     constructor () {}
     getInfo() {
         return {
-            "id": "Geography",
-            "name": "Geography",
+         id : "Geography",
+         name: "Geography",
             
          color1: '#8BC34A',
          color2: '#7CB342',
          color3: '#689F38',
-            "blocks": [{
-                    "opcode": "Geography",
-                    "blockType": "reporter",
-                    "text": "Geography",
+         blocks: [{
+                    opcode: "Geography",
+                    blockType: "reporter",
+                    text: "Geography",
                     }
                 },
             }],
-        "menus": { //we will get back to this in a later tutorial
+        menus: { //we will get back to this in a later tutorial
         }
     };
     Geography() {
