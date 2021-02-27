@@ -1,8 +1,13 @@
 class Geography {
+    constructor () {}
     getInfo() {
         return {
             "id": "Geography",
             "name": "Geography",
+            
+         color1: '#8BC34A',
+         color2: '#7CB342',
+         color3: '#689F38',
             "blocks": [{
                     "opcode": "Geography",
                     "blockType": "reporter",
